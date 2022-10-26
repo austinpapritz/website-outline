@@ -1,27 +1,56 @@
-## The Golden Rule:
+## README
 
-🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
+![Wireframe](./assets/website-outline-wireframe.png)
 
-If you work on more than one feature at a time, you are guaranteed to multiply your bugs and your anxiety.
+-COLUMNS-
 
-## Making a plan
+1. LEFT 130px
+2. RIGHT 1fr
 
-1. **Make a drawing of your app. Simple "wireframes"**
-1. **Look at the drawing and name the HTML elements you'll need to realize your vision**
-1. **Look at the drawing and imagine using the app. What _state_ do you need to track?**
-1. **For each HTML element ask: Why do I need this? (i.e., "we need div to display the results in")**
-1. **Once we know _why_ we need each element, think about how to implement the "Why" as a "How" (i.e., `resultsEl.textContent = newResults`)**
-1. **Find all the 'events' (user clicks, form submit, on load etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change? Does any DOM update?**
-1. **Think about how to validate each of your features according to a Definition of Done. (Hint: console.log usually helps here.)**
-1. **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
+-LEFT COLUMN-
 
-Additional considerations:
+1. LOGO 115px
+2. FLEX COLUMNS 1-5 (1fr)
+   General 6 links
+   Contribute 5 links
+   Tools 6 links
+   Print 2 links
+   Other 12 links
 
--   Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
--   Consider your data model.
-    -   What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need?
-    -   What are the key/value pairs?
-    -   What arrays might you need?
-    -   What needs to live in a persistence layer?
--   Is there some state we need to initialize?
--   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+-RIGHT COLUMN-
+
+&Header&
+
+1. %nav% 30px
+2. welcome slogan 70px
+ <h1>
+ <h2>
+
+%Nav%
+
+1. Flex start
+   Main Page | Talk
+2. Flex end
+   Read | View Source | View History | <input />
+
+&MAIN& 1fr
+
+1. ^collection left^ columnn 6fr
+2. ^collection right^ column 5fr
+
+^Collection left^
+
+1. article flex column 1
+ <h3>Title
+ <p>
+2. article flex column 2
+ <h3>Title
+ <p>
+ ^Collection right^
+
+3. article flex column 1
+ <h3>Title
+ <p>
+4. article flex column 2
+ <h3>Title
+ <p>
