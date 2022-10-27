@@ -53,10 +53,29 @@ header {
 
 #welcome {
     background-color: blueviolet;
+    margin: 15px 20px 5px 20px;
 }
 
 main {
     background-color: goldenrod;
+    display: grid;
+    column-count: 2;
+    grid-template-columns: 6fr 4fr;
+    /* column-fill: auto; */
+}
+
+#mainColumnL {
+    background-color: gray;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-start; */
+}
+
+#mainColumnR {
+    background-color: green;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-start; */
 }
 
 header {
