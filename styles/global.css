@@ -22,7 +22,6 @@ aside {
 }
 
 #logo {
-    margin-bottom: 10px;
     border: solid black;
 }
 
@@ -43,6 +42,21 @@ aside {
 
 #alphaBoxRight {
     background-color: teal;
+    display: grid;
+    row-count: 3;
+    grid-template-rows: 30px 70px 1fr;
+}
+
+header {
+    background-color: aqua;
+}
+
+#welcome {
+    background-color: blueviolet;
+}
+
+main {
+    background-color: goldenrod;
 }
 
 header {
