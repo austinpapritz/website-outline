@@ -1,39 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>Wikipedia Outline</title>
+        <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
 
-    <!-- title and favicon -->
-    <title>Web App</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <!-- add link for page specific css -->
+    </head>
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
-
-</head>
-
-<body>
-    <header>
-        <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
-    </header>
-
-    <main>
-
-    </main>
-
-</body>
-
+    <body>
+        <aside>
+            <div id="logo">
+                <img src="http://placekitten.com/75/75" />
+                <p>WIKIPEDIA</p>
+                <!-- <p>The Free Encyclopedia</p> -->
+            </div>
+            <div id="asideFlex">
+                <div>Main Page<br />1<br />2<br />3<br />4<br />5<br />6</div>
+                <div>Contribute<br />1<br />2<br />3<br />4<br />5<br /></div>
+                <div>Tools<br />1<br />2<br />3<br />4<br />5<br />6</div>
+                <div>Print/export<br />1<br />2</div>
+                <div>
+                    Other Projects<br />1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br />12
+                </div>
+            </div>
+        </aside>
+        <section id="alphaBoxRight">
+            <header>Header</header>
+            <div id="welcome">Welcome to Wikipedia</div>
+            <main>
+                <div id="mainColumnL">
+                    mainColumnL
+                    <div id="articleLFlex1">articleLFlex1</div>
+                    <div id="articleLFlex2">articleLFlex2</div>
+                </div>
+                <div id="mainColumnR">
+                    mainColumnR
+                    <div id="articleRFlex1">articleRFlex1</div>
+                    <div id="articleRFlex2">articleRFlex2</div>
+                </div>
+            </main>
+        </section>
+    </body>
 </html>
